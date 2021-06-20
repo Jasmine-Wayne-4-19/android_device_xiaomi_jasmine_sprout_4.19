@@ -33,6 +33,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 #TWRP
 include recovery/twrp/xiaomi/jasmine_sprout/twrp.mk
 
+#Gapps
+TARGET_ARCH = arm64
+
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
