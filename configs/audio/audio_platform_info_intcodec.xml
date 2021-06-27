@@ -117,6 +117,10 @@
         <device name="SND_DEVICE_IN_VOICE_HEADSET_MIC" acdb_id="307"/>
         <device name="SND_DEVICE_IN_VOICE_REC_HEADSET_MIC" acdb_id="307"/>
         <device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="4"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_DMIC" acdb_id="85"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_TMIC" acdb_id="87"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_TMIC_FAR_END" acdb_id="599"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_TMIC_NEAR_END" acdb_id="1111"/>        
         <device name="SND_DEVICE_IN_VOICE_DMIC" acdb_id="277"/>
         <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC" acdb_id="293"/>
         <device name="SND_DEVICE_IN_VOICE_RX" acdb_id="819"/>
@@ -215,6 +219,10 @@
         <device name="SND_DEVICE_IN_BT_SCO_MIC_WB" interface="SLIMBUS_7_TX"/>
         <device name="SND_DEVICE_IN_BT_SCO_MIC_WB_NREC" interface="SLIMBUS_7_TX"/>
         <device name="SND_DEVICE_IN_CAMCORDER_MIC" interface="INT3_MI2S_TX"/>
+	      <device name="SND_DEVICE_IN_CAMCORDER_DMIC" interface="INT3_MI2S_TX"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_TMIC" interface="INT3_MI2S_TX"/>
+      	<device name="SND_DEVICE_IN_CAMCORDER_TMIC_FAR_END" interface="INT3_MI2S_TX"/>
+      	<device name="SND_DEVICE_IN_CAMCORDER_TMIC_NEAR_END" interface="INT3_MI2S_TX"/>
         <device name="SND_DEVICE_IN_VOICE_DMIC" interface="INT3_MI2S_TX"/>
         <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC" interface="INT3_MI2S_TX"/>
         <device name="SND_DEVICE_IN_VOICE_SPEAKER_QMIC" interface="INT3_MI2S_TX"/>
