@@ -23,9 +23,9 @@
 
 # inherit MI A2 Pixel Extended COnfigs
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_jasmine_sprout.mk
+    $(LOCAL_DIR)/octavi_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_jasmine_sprout-eng \
-    lineage_jasmine_sprout-userdebug \
-    lineage_jasmine_sprout-eng
+    octavi_jasmine_sprout-eng \
+    octavi_jasmine_sprout-userdebug \
+    octavi_jasmine_sprout-eng
