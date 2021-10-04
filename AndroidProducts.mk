@@ -7,9 +7,9 @@
 
 # inherit MI A2 device config for ShapeShiftOS
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_jasmine_sprout.mk
+    $(LOCAL_DIR)/lineage_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_jasmine_sprout-user \
-    ssos_jasmine_sprout-userdebug \
-    ssos_jasmine_sprout-eng
+    lineage_jasmine_sprout-user \
+    lineage_jasmine_sprout-userdebug \
+    lineage_jasmine_sprout-eng
